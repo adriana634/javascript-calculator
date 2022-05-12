@@ -1,6 +1,9 @@
 "use strict";
 
-import { matchOperation, calcOperation } from './operation.js';
+import { 
+    matchOperation, 
+    calcOperation 
+} from './operation.js';
 
 const numberButtons = document.querySelectorAll('[data-number]');
 const operationButtons = document.querySelectorAll('[data-operation]');
