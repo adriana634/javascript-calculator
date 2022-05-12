@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap');
 
 *,
 *::before,
 *::after {
     box-sizing: border-box;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Archivo', sans-serif;
     font-weight: normal;
 }
 
@@ -23,7 +23,7 @@ body {
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
 
-.calculator-grid > button {
+.calculator-grid>button {
     cursor: pointer;
     font-size: 2rem;
     border: 1px solid white;
@@ -31,7 +31,7 @@ body {
     background-color: rgba(255, 255, 255, .75);
 }
 
-.calculator-grid > button:hover {
+.calculator-grid>button:hover {
     background-color: rgba(255, 255, 255, .90);
 }
 
@@ -47,12 +47,12 @@ body {
     word-break: break-all;
 }
 
-.output > .previous-operand {
+.output>.previous-operand {
     font-size: 1.5em;
     color: rgba(255, 255, 255, .75);
 }
 
-.output > .current-operand {
+.output>.current-operand {
     font-size: 2.5em;
     color: white;
 }
